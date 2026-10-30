@@ -11,6 +11,9 @@ importers:
       '@next/swc-wasm-nodejs':
         specifier: latest
         version: 16.4.3
+      '@tailwindcss/postcss':
+        specifier: ^4.3.3
+        version: 4.3.3
       next:
         specifier: latest
         version: 16.4.3(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -21,9 +24,6 @@ importers:
         specifier: latest
         version: 19.3.1(react@19.3.1)
     devDependencies:
-      '@tailwindcss/postcss':
-        specifier: ^4.3.3
-        version: 4.3.3
       '@types/node':
         specifier: 26.6.6
         version: 26.6.6
